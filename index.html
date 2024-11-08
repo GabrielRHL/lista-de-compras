@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Compras</title>
+</head>
+<body>
+    <main class="lista__compras">
+        <img class="lista__compras__img" src="assets/supermercado.png" alt="Sacola de compras">
+        <form class="lista__compras__adicionar">
+            <input class="adicionar__digitacao" id="input-item" type="text" placeholder="Digite o item que deseja adicionar"></input>
+            <button class="adicionar__botao" id="adicionar-item">Adicionar item</button>
+        </form>
+        <h2>Lista de compras</h2>
+        <hr class="lista__compras__hr">
+        <ul id="lista-compras-ul">
+            <p id="mensagem-lista-vazia" class="lista_compras_mensagem">Sua lista está vazia</p>
+        </ul>
+        <h2>Comprados</h2>
+        <hr class="lista__compras__hr">
+        <ul id="lista-comprados">
+            <p id="mensagem-compra-vazia" class="lista_compras_mensagem">Voce ainda não comprou nenhum item</p>
+        </ul>
+    </main>
+    <script src="scripts.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/7fc7f8597c.js" crossorigin="anonymous"></script>
+</body>
+</html>
