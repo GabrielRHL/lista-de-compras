@@ -32,7 +32,7 @@ export function criarItemDaLista (item) {
             checkboxCustom.classList.add("checked");
             itemTitulo.style.textDecoration = "line-through";
             listaComprados.appendChild(itemDaLista);
-            verificarCompraVazia(listaDeCompras);
+            verificarCompraVazia(listaComprados);
         } else {
             checkboxCustom.classList.remove("checked");
             itemTitulo.style.textDecoration = "none";
