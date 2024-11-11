@@ -2,6 +2,7 @@ import { listaDeCompras } from "./adicionarItem.js";
 import { editarItem } from "./editarItem.js";
 import { excluirItem } from "./excluirItem.js";
 import { verificarCompraVazia } from "./verificarCompraVazia.js";
+import { verificarListaVazia } from "./verificarListaVazia.js";
 
 const listaComprados = document.getElementById("lista-comprados")
 let contador = 0;
@@ -33,10 +34,13 @@ export function criarItemDaLista (item) {
             itemTitulo.style.textDecoration = "line-through";
             listaComprados.appendChild(itemDaLista);
             verificarCompraVazia(listaComprados);
+            verificarListaVazia(listaDeCompras);
         } else {
             checkboxCustom.classList.remove("checked");
             itemTitulo.style.textDecoration = "none";
             listaDeCompras.appendChild(itemDaLista);
+            verificarCompraVazia(listaComprados);
+            verificarListaVazia(listaDeCompras);
         }
     });
 
