@@ -63,6 +63,7 @@ body {
     color: var(--cor-principal);
     background-color: var(--cor-terciaria);
     border: none;
+    cursor: pointer;
 }
 
 h2 {
@@ -147,4 +148,15 @@ ul {
     background-color: transparent;
     border: none;
     cursor: pointer;
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--cor-secundaria);
+    padding: 30px;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    color: var(--cor-fundo);
 }
