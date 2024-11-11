@@ -33,15 +33,13 @@ export function criarItemDaLista (item) {
             checkboxCustom.classList.add("checked");
             itemTitulo.style.textDecoration = "line-through";
             listaComprados.appendChild(itemDaLista);
-            verificarCompraVazia(listaComprados);
-            verificarListaVazia(listaDeCompras);
         } else {
             checkboxCustom.classList.remove("checked");
             itemTitulo.style.textDecoration = "none";
             listaDeCompras.appendChild(itemDaLista);
-            verificarCompraVazia(listaComprados);
-            verificarListaVazia(listaDeCompras);
         }
+        verificarCompraVazia(listaComprados);
+        verificarListaVazia(listaDeCompras);
     });
 
     const checkboxCustom = document.createElement("div");
