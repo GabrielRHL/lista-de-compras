@@ -1,3 +1,5 @@
+import { novaData } from "./novaData.js";
+
 export const editarItem = (element) => {
     let novoItem = prompt("Digite o novo nome do item:");
 
@@ -11,5 +13,7 @@ export const editarItem = (element) => {
             element.querySelector(".checkbox__custom").classList.add("checked");
             itemTituloNovo.style.textDecoration = "line-through";
         }
+        const itemDataNova = element.querySelector("#item-data");
+        itemDataNova.textContent = novaData();
     }
 }
