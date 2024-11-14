@@ -87,6 +87,7 @@ export function criarItemDaLista (item) {
     itemContainer.appendChild(containerBotoes);
 
     const itemData = document.createElement("p");
+    itemData.id = "item-data";
     itemData.innerText = `${new Date().toLocaleDateString("pt-BR", {weekday: "long"})} (${new Date().toLocaleDateString()}) às ${new Date().toLocaleTimeString("pt-BR", {hour: 'numeric', minute: 'numeric'})}`;
     itemData.classList.add("lista__compras__texto");
 
