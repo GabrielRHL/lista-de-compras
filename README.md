@@ -1,8 +1,20 @@
-# Lista de Compras
+# LISTA DE COMPRAS
 
-Esta é uma aplicação de lista de compras desenvolvida com HTML, CSS e JavaScript, permitindo que os usuários adicionem e gerenciem produtos que desejam comprar.
+![GitHub repo size](https://img.shields.io/github/repo-size/GabrielRHL/super-cars?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/GabrielRHL/super-cars?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/GabrielRHL/super-cars?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/GabrielRHL/super-cars?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/GabrielRHL/super-cars?style=for-the-badge)
 
-Esse projeto foi desenvolvido por Gabriel Rocha Lopes, durante o curso de JavaScript: construindo páginas dinâmicas, feito na Alura.
+<img src="./assets/site-lista-de-compras.png" alt="Exemplo imagem">
+
+> Esta é uma aplicação de lista de compras desenvolvida com HTML, CSS e JavaScript, permitindo que os usuários adicionem e gerenciem produtos que desejam comprar.
+
+## 🔧 Ajustes e melhorias
+
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
+
+- [ ] Responsividade
 
 ## 🔨 Funcionalidades
 
